@@ -62,7 +62,7 @@ int fillSudoku(int a[SIZE][SIZE])
         for (c = 0; c < SIZE; c++) {
             if (a[r][c] == 0) {
                 foundEmpty = 1;
-                goto leave_loop;   /* Human-style escape */
+                goto leave_loop;   
             }
         }
     }
