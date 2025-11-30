@@ -86,7 +86,7 @@ leave_loop:
         }
     }
 
-    return 0;  /* triggers backtracking */
+    return 0;  /* applies backtracking */
 }
 
 int main()
